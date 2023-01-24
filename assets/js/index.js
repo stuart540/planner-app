@@ -18,3 +18,16 @@
 // PC set a button event listener for the save function, when clicked, the information will be stored to client local storage
 
 // * Persist events between refreshes of a page
+
+// save reference to important DOM elements
+var dateDisplayEl = $('#currentDay');
+
+
+// handle displaying the time
+function displayDate() {
+  var rightNow = moment().format('dddd, MMMM Do');
+  dateDisplayEl.text(rightNow);
+}
+
+
+setInterval(displayDate, 1000);
