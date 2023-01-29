@@ -4,6 +4,10 @@ body {
   line-height: 1;
 }
 
+i {
+  color: #ffffff;
+}
+
 textarea {
   height: 100%;
   width: 100%;
