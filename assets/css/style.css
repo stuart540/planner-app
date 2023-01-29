@@ -34,12 +34,13 @@ textarea {
   justify-content: space-between;
   white-space: pre-wrap;
   height: 80px;
-  width: 80vw;
+  width: 100%;
   border-top: 1px solid white;
 }
 
 .hour {
   width: 100px;
+  text-align: center;
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
